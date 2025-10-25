@@ -1,0 +1,30 @@
+{
+  "name": "spark-metropol-api/spark-metropol-api",
+  "description": "Spark Metropol CRB API client for PHP/Laravel",
+  "keywords": [
+    "CRB",
+    "Metropol",
+    "Laravel 10",
+    "Laravel 11",
+    "Laravel 12"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sparkworld Enterprises",
+      "email": "sparkworldke@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "nesbot/carbon": "^2.0",
+    "psr/log": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SparkMetropolApi\\": "src"
+    }
+  }
+}
